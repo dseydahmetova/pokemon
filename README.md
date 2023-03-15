@@ -52,4 +52,13 @@ Continue working on your Index.jsx view so that you can see:
  *So, when you go to `localhost:3000/pokemon/whatever`
 `whatever` will show up in the browser
 
-### ink your Index.jsxto your Show.jsx
+### link your Index.jsxto your Show.jsx
+
+
+## PART 2: Add a model and a database 
+* Add Model for pokemon
+* Rewrite Index Route to use Mongodb
+* Rewrite Index View to work with Index Route
+* Rewrite Show Route to MongoDB
+* Rewrite Create Route to work with MongoDB
+* Use New Page to create all the pokemon that were in the  original array at minimum

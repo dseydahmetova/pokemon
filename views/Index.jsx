@@ -21,12 +21,14 @@ export default function Index(props) {
         <div style={myStyle}>
             <h1 style={{ textAlign: 'center' }}>See All The Pokemon!</h1>
             <ul>
-                {props.pokemon.map((item, index) =>
-                    <a href={`/pokemon/${index}`} style={aTagStyle}>
-                        <li key={index}>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</li>
+                {props.pokemon.map(item =>
+                    <a href={`/pokemon/${item._id}`} style={aTagStyle}>
+                        <li>{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</li>
                     </a>
                 )}
             </ul>
+            <a href="/pokemon/new">Add Pokemon</a>
+            <br/><br/>
         </div>
     )
 }
