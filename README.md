@@ -1,5 +1,8 @@
 # Make a Pokemon app that displays data inside server-side rendered views.
 
+![Screenshot](Capture.png)
+![Screenshot](Capture1.png)
+
 * Learning Objectives
 * Practicing index and show, new and create routes with express
 * Prerequisites
